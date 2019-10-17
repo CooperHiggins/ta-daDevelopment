@@ -11,7 +11,9 @@ body {
 }
 /*HEADER CSS*/
 header {
-	background: url(../images/web-development-bg1.jpeg); 
+	background: url(../images/web-development-bg1.jpeg);
+	width: 100%;
+	color: white; 
 }
 .header-container {
 	margin: 5em auto 0 auto;
