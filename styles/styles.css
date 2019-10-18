@@ -76,3 +76,14 @@ span.web-development-services {
 .bg-grey {
 	background-color: #f8f8f8;
 }
+/*AMAZON AFFILIATE CSS*/
+
+/*PRICING CSS*/
+.blue-card {
+    background-color: #3EBAED;
+    color: white;
+}
+.btn.call-us {
+    background-color: white;
+    color: #3EBAED;
+}
