@@ -6,14 +6,19 @@
 }
 body {
   background: #fafafa;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Oregano', cursive, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+}
+/*NAVBAR CSS*/
+.navbar-brand {
+
 }
 /*HEADER CSS*/
 header {
 	background: url(../images/web-development-bg1.jpeg);
 	width: 100%;
 	color: white; 
+	font-family: 'Oregano', Helvetica;
 }
 .header-container {
 	margin: 0em auto 0 auto;
