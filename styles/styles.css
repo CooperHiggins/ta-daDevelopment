@@ -16,8 +16,16 @@ header {
 	color: white; 
 }
 .header-container {
-	margin: 5em auto 0 auto;
+	margin: 0em auto 0 auto;
 }
 .header-title {
 	text-align: center; 
+}
+.header-computer {
+	margin: 0em auto 0em auto;
+}
+#header-image {
+	width: 20em;
+	display: table-cell;
+	margin: 0em auto 0em auto;
 }
