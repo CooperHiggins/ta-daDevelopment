@@ -22,8 +22,13 @@ body {
 }
 /*HEADER CSS*/
 header {
+	position: relative;
+	-webkit-background-size: cover;
+	background-position: center;
+	background-size: cover;
 	background: url(../images/web-development-bg1.jpeg);
 	width: 100%;
+	min-height: 100%;
 	color: white; 
 	font-family: 'Oregano', Helvetica;
 }
@@ -49,4 +54,11 @@ header {
 }
 #red {
 	color: #F7005E;
+}
+.bg-overlay {
+	/*display: block;*/
+	/*position: absolute;*/
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.69);
 }
