@@ -60,3 +60,19 @@ header {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.69);
 }
+
+/*SERVICES CSS*/
+span.web-development-services {
+    background-color: #28a7e9;
+    border-radius: 50px;
+    height: 2em;
+    width: 2em;
+    float: left;
+    padding-top: .3em;
+    margin: 0em 1em 1em 0em;
+    border: .1em solid black;
+    text-align: center;
+}
+.bg-grey {
+	background-color: #f8f8f8;
+}
