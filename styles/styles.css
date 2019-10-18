@@ -87,3 +87,16 @@ span.web-development-services {
     background-color: white;
     color: #3EBAED;
 }
+
+/*CONTACT CSS*/
+#web-development-contact {
+	position: relative;
+	-webkit-background-size: cover;
+	background-position: center;
+	background-size: cover;
+	background: url(../images/web-development-bg1.jpeg);
+	width: 100%;
+	min-height: 100%;
+	color: white; 
+	font-family: 'Oregano', Helvetica;
+}
