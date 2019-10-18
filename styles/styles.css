@@ -41,3 +41,12 @@ header {
 	display: table-cell;
 	margin: 0em auto 0em auto;
 }
+#blue {
+	color: #3EBAED;
+}
+#purple {
+	color: #CF46FF;
+}
+#red {
+	color: #F7005E;
+}
