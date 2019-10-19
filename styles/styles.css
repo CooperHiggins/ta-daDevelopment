@@ -16,6 +16,9 @@ body {
 	src: url("https://fonts.googleapis.com/css?family=Oregano&display=swap");
 	font-display: swap;
 }
+section {
+    padding: 5em 0em 5em 0em;
+}
 /*NAVBAR CSS*/
 .navbar-brand {
 	font-family: "Oregano";
