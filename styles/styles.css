@@ -59,9 +59,10 @@ header {
 	color: #F7005E;
 }
 .bg-overlay {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.69);
+    padding: 5em 2em 5em 2em;
 }
 
 /*SERVICES CSS*/
@@ -100,6 +101,12 @@ span.web-development-services {
 	background: url(../images/web-development-bg1.jpeg);
 	width: 100%;
 	min-height: 100%;
+	padding: 0em;
 	color: white; 
 	font-family: 'Oregano', Helvetica;
+}
+
+/*FOOTER CSS*/
+footer {
+    padding: 1em 0em 0em 0em;
 }
