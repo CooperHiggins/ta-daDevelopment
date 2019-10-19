@@ -20,8 +20,13 @@ section {
     padding: 5em 0em 5em 0em;
 }
 /*NAVBAR CSS*/
+a.navbar-brand {
+    font-size: 2em;
+    font-weight: 700;
+}
 .navbar-brand {
 	font-family: "Oregano";
+	color: #3EBAED;
 }
 /*HEADER CSS*/
 header {
