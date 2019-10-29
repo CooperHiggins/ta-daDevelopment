@@ -28,6 +28,13 @@ a.navbar-brand {
 	font-family: "Oregano";
 	color: #3EBAED;
 }
+a.nav-link {
+	scroll-behavior: smooth;
+	color: #3EBAED;
+	font-weight: bold;
+	font-family: 'Oregano', Helvetica;
+	font-size: 1.5em;
+}
 /*HEADER CSS*/
 header {
 	position: relative;
