@@ -19,6 +19,9 @@ body {
 section {
     padding: 5em 0em 5em 0em;
 }
+ol {
+	text-align: left;
+}
 /*NAVBAR CSS*/
 a.navbar-brand {
     font-size: 2em;
