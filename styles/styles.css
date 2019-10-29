@@ -39,11 +39,13 @@ a.nav-link {
     border: .1em solid #3EBAED;
 }
 .navbar-toggler.tada-toggler {
-    border: .1em solid #3EBAED;
+    border: .1em solid #F7005E;
 }
-
 .tada-toggler .navbar-toggler-icon {
   	background-image: url("../images/hamburger.png");
+}
+ul.navbar-nav.mr-auto a:hover {
+    color: #F7005E;
 }
 
 /*HEADER CSS*/
