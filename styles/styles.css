@@ -10,7 +10,7 @@ body {
 	color: #333;
 }
 @font-face {
-	font-family: "Oregano";
+	font-family: "Oregano", Helvetica;
 	font-weight: 400;
 	font-style: normal;
 	src: url("https://fonts.googleapis.com/css?family=Oregano&display=swap");
