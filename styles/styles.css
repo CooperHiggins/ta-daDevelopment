@@ -38,11 +38,11 @@ a.nav-link {
 	font-family: 'Oregano', Helvetica;
 	font-size: 1.5em;
 }
-.navbar-toggler.tada-toggler.collapsed {
+.navbar-toggler.tada-toggler {
     border: .1em solid #3EBAED;
 }
-.navbar-toggler.tada-toggler {
-    border: .1em solid #F7005E;
+.navbar-toggler.tada-toggler.collapsed {
+    border: .1em solid #3EBAED;
 }
 .tada-toggler .navbar-toggler-icon {
   	background-image: url("../images/hamburger.png");
@@ -67,8 +67,7 @@ header {
 	margin: 0em auto 0 auto;
 }
 .header-title {
-	text-align: center;
-	font-size: 4em; 
+	text-align: center; 
 }
 .header-computer {
 	margin: 0em auto 0em auto;
