@@ -63,6 +63,9 @@ header {
 	color: white; 
 	font-family: 'Oregano', Helvetica;
 }
+.background {
+    background-size: cover;
+}
 .header-container {
 	margin: 0em auto 0 auto;
 }
