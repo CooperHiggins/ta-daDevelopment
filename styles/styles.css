@@ -67,7 +67,8 @@ header {
 	margin: 0em auto 0 auto;
 }
 .header-title {
-	text-align: center; 
+	text-align: center;
+	font-size: 3.5em; 
 }
 .header-computer {
 	margin: 0em auto 0em auto;
