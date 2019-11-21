@@ -1,3 +1,5 @@
+$tadaBlue: #3EBAED;
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -24,5 +26,14 @@ body {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+  }
+}
+
+.btn.call-us {
+  background-color: white;
+  color: $tadaBlue;
+  a.btn.call-us:hover {
+    background-color: $tadaBlue;
+    color: white;
   }
 }

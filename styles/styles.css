@@ -123,6 +123,9 @@ span.web-development-services {
     background-color: white;
     color: #3EBAED;
 }
+.btn.call-us:hover {
+    color: black;
+  }
 
 /*CONTACT CSS*/
 #web-development-contact {
