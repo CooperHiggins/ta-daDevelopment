@@ -3576,9 +3576,10 @@ html {
 }
 
 body {
-  background: #fafafa;
+  background: white;
   font-family: 'Oregano', cursive;
   color: #333;
+  margin: 0px;
 }
 
 .hero-unit {
