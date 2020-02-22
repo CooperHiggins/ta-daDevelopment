@@ -3666,7 +3666,7 @@ header .bg-overlay {
 
 .background {
   background-size: cover;
-  background-image: url(./images/web-development-bg1.jpeg);
+  background-image: url("./images/web-development-bg1.jpeg");
 }
 
 .header-container {
@@ -3727,7 +3727,7 @@ span.web-development-services {
   -webkit-background-size: cover;
   background-position: center;
   background-size: cover;
-  background-image: url(./images/web-development-bg1.jpeg);
+  background-image: url("./images/web-development-bg1.jpeg");
   width: 100%;
   min-height: 100%;
   padding: 0em;
