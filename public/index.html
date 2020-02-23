@@ -13,6 +13,8 @@
     <!-- <link rel="stylesheet" href="styles/styles.css"> -->
     <link rel="stylesheet" href="./css/main.css">
 
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+
     <!-- BOOTSTRAP CSS -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
@@ -56,7 +58,8 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav id="nav" class="navbar navbar-expand-lg bg-light tada-nav">
+
+    <!-- <nav id="nav" class="navbar navbar-expand-lg bg-light tada-nav">
       <a class="navbar-brand" href="index.html">Ta-Da!</a>
       <button class="navbar-toggler tada-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -92,7 +95,37 @@
         </ul>
 
       </div>
-    </nav>
+    </nav> -->
+
+    <header class="ampstart-headerbar flex justify-start items-center pl-3 pr-4 ">
+      <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr-2">☰</div>
+  
+          <div class="ampstart-headerbar-title ml-auto"><a href="index.html" class="nav-links">Home</a></div>
+          <div class="ampstart-headerbar-title"><a href="about-hearing-aids-chesapeake.html" class="nav-links">About</a></div>
+          <div class="ampstart-headerbar-title"><a href="contact-hearing-aids-chesapeake.html" class="nav-links">Contact</a></div>
+          <div class="ampstart-headerbar-title"><a href="hearing-aids-chesapeake.html" class="nav-links">Hearing Aids</a></div>
+          <div class="dropdown">
+            <button class="dropbtn">Services 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="hearing-test-chesapeake.html">Hearing Test</a>
+              <a href="hearing-aid-evaluation.html">Hearing Aid Evaluation</a>
+              <a href="chesapeake-hearing-aid-dispensing-and-fitting.html">Hearing Aid Fitting</a>
+              <a href="#">Hearing Aid Repair</a>
+              <a href="#">Custom Earmolds + Earplugs</a>
+            </div>
+          </div> 
+  </header>
+
+<!-- Start Sidebar -->
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar px-3" layout="nodisplay">
+  <div class="flex justify-start items-center ampstart-sidebar-header">
+    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+  </div>
+  <nav class="ampstart-sidebar-nav ampstart-nav">
+    <ul class="list-reset list-style-none m0 pl-0 ampstart-label">
+          <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
 
       <header class="background">
         <div class="bg-overlay">

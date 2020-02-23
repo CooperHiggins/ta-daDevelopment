@@ -3273,64 +3273,8 @@ body {
   margin: 0px;
 }
 
-// CARD
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem;
-}
-.blue-card {
-  background-color: #3EBAED;
-  color: white;
-}
 
-// FORM
-.form-control {
-  display: block;
-  width: 100%;
-  height: calc(1.5em + .75rem + 2px);
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-textarea {
-  -webkit-writing-mode: horizontal-tb !important;
-  text-rendering: auto;
-  color: -internal-light-dark-color(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  -webkit-appearance: textarea;
-  background-color: -internal-light-dark-color(white, black);
-  -webkit-rtl-ordering: logical;
-  flex-direction: column;
-  resize: auto;
-  cursor: text;
-  white-space: pre-wrap;
-  overflow-wrap: break-word;
-  margin: 0em;
-  font: 400 11px system-ui;
-  border-width: 1px;
-  border-style: solid;
-  border-color: initial;
-  border-image: initial;
-  padding: 2px;
-}
-textarea.form-control.m-1 {
-  height: 90%;
-  /* margin: 1em; */
-}
+
 
 // MODAL
 .modal-open {
@@ -3576,14 +3520,8 @@ textarea.form-control.m-1 {
     letter-spacing: -1px;
   }
 }
-.btn.call-us {
-  background-color: white;
-  color: $tadaBlue;
-  a.btn.call-us:hover {
-    background-color: $tadaBlue;
-    color: white;
-  }
-}
+
+
 
 @font-face {
 	font-family: "Oregano", Helvetica;
@@ -3626,6 +3564,18 @@ a.nav-link {
 ul.navbar-nav.mr-auto a:hover {
   color: $tadaRed;
 }
+// NAVBAR
+.navbar-expand-lg .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.navbar-expand-lg .navbar-nav {
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+
 /*HEADER CSS*/
 header {
 	position: relative;
@@ -3661,6 +3611,95 @@ header {
 	width: 20em;
 	display: table-cell;
 	margin: 0em auto 0em auto;
+}
+
+
+// CARD
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.blue-card {
+  background-color: #3EBAED;
+  color: white;
+}
+
+// FORM
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark-color(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textarea;
+  background-color: -internal-light-dark-color(white, black);
+  -webkit-rtl-ordering: logical;
+  flex-direction: column;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  margin: 0em;
+  font: 400 11px system-ui;
+  border-width: 1px;
+  border-style: solid;
+  border-color: initial;
+  border-image: initial;
+  padding: 2px;
+}
+textarea.form-control.m-1 {
+  height: 90%;
+  /* margin: 1em; */
+}
+// BUTTONS CSS
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn.call-us {
+  background-color: white;
+  color: $tadaBlue;
+  width: 100%;
+  a.btn.call-us:hover {
+    background-color: $tadaBlue;
+    color: white;
+  }
 }
 
 
