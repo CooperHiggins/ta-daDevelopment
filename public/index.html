@@ -257,7 +257,7 @@
           <div class="col block">
             <div class="d-table">
               <h4 class="overflow-hidden">E-commerce development with Pay Pal and Stripe.</h4>
-              <p class="">E-commerce development with Javascript or react, paypal and stripe.</p>
+              <p class="">Javascript E-commerce development with, Paypal and Stripe.</p>
             </div>
           </div>
         </div>
@@ -269,7 +269,7 @@
           <div class="col block">
             <div class="d-table">
               <h4 class="overflow-hidden">API Development and third party tool integration like Tableau, Mail Chimp, Formspree, and much more.</h4>
-              <p class="">Mobile first web development, creating a more accessible website.</p>
+              <!-- <p class="">Mobile first web development, creating a more accessible website.</p> -->
             </div>
           </div>
         </div>
@@ -442,6 +442,30 @@
   </div><!-- container -->
 </section>
 
+
+<section class="p-0">
+  <div class="container-fluid text-right">
+    <div class="row align-items-center d-flex">
+
+      <button id="click-to-reveal" class="m-auto">Click to see portfolio</button>
+
+      <svg viewBox="0 0 171.82 88.85" height="auto" width="auto" style="z-index: -1;">
+        <polygon class="polymorph" points="215.1 102.93 0 102.93 0 0 31.98 0 215.1 0 215.1 102.93"/>
+      </svg>
+
+      <div id="pop-up">
+        <h2>Header</h2>
+        <p>paragraph/portfolio link</p>
+        <button id="click-to-hide">Hide</button>
+        <button id="click-to-hide">Go To Site</button>
+      </div>
+
+      
+    
+    </div><!-- row -->
+  </div><!-- container -->
+</section>
+
 <section id="web-development-contact">
   <div class="bg-overlay-footer">
     <div class="container-fluid text-right contact-bg">
@@ -495,4 +519,58 @@
 </footer>
 
   </body>
+  <script src="./js/anime.min.js"></script>
+  <script>
+    var btn = document.getElementById('click-to-reveal');
+    var btn2 = document.getElementById('click-to-hide');
+
+    btn.onclick = function() {
+      var morphing = anime({
+      targets: '.polymorph',
+        points: [
+          { value: '215.1 102.93 0 102.93 0 0 31.98 0 77.72 62.74 215.1 102.93' },
+          { value: '215.1 102.93 0 102.93 0 0 0 0 55.86 69.62 215.1 102.93' }
+          // { value: '81,94.31,55.86,69.62,215.1,102.93,215.1,102.93Z' }
+          
+        ],
+        easing: 'easeOutQuad',
+        duration: 2000,
+        loop: false
+      });
+
+      anime({
+        targets: '#pop-up',
+        opacity: 1,
+        duration: 8500,
+        translateY: 50
+      });
+
+    
+
+      var promise = morphing.finished.then(() => {
+
+        btn2.onclick = function() {
+          var morphing = anime({
+          targets: '.polymorph',
+            points: [
+              { value: '215.1 102.93 0 102.93 0 0 31.98 0 77.72 62.74 215.1 102.93' },
+              { value: '215.1 102.93 0 102.93 0 0 31.98 0 215.1 0 215.1 102.93' }
+            ],
+            easing: 'easeOutQuad',
+            duration: 2000,
+            loop: false
+          });
+
+          anime({
+            targets: '#pop-up',
+            opacity: 0,
+            duration: 8500,
+            translateY: 50
+          })
+
+        };
+      })
+    } 
+      
+  </script>
 </html>

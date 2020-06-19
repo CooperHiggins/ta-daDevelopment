@@ -46,6 +46,57 @@ font-size: 1.7em
 .text-center {
 text-align: center
 }
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+#click-to-reveal {
+  position: absolute;
+  background: none;
+  margin: auto auto 0 auto;
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3em;
+  color: white;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+#click-to-reveal:focus {
+  background: white;
+  outline: none;
+  color: black;
+  border: none;
+  display: none;
+}
+#click-to-hide {
+  width: auto;
+  margin: 30px auto;
+  background: var(--tada-blue);
+  cursor: pointer;
+}
+#pop-up {
+  position: absolute;
+  color: black;
+  background: var(--tada-blue);
+  right: 5%;
+  padding: 2em;
+  opacity: 0;
+  width: 30%;
+  transform: translateY(-800px);
+}
+button {
+border-radius: 50pc;
+padding: .5rem 2.5rem;
+background-color: var(--tada-blue);
+outline: none;
+}
+button {
+font-size: 1.2rem;
+}
 button a {
 text-decoration: inherit;
 color: white
@@ -54,24 +105,15 @@ button a:hover {
 text-decoration: inherit;
 color: var(--tada-blue);
 }
-
-button {
-font-size: 1.2rem;
-border-radius: 50pc;
-padding: .5rem;
-background-color: var(--tada-blue)
-}
 button:hover {
 font-size: 1.2rem;
 border-radius: 50pc;
-padding: .5rem;
-color: var(--tada-blue);
+padding: .5rem 2.5rem;
+color: black;
 background-color: white
 }
 
-button {
-font-size: 1.2rem;
-}
+
 p {
 font-size: 1.2rem
 }
@@ -191,6 +233,9 @@ margin: 0em auto 0em auto;
 }
 #blue {
 color: var(--tada-blue);
+color: var(--tada-blue);
+-webkit-text-stroke-color: #00e7ffdb;
+-webkit-text-stroke-width: .4px;
 }
 #purple {
 color: var(--tada-purple);
@@ -200,6 +245,9 @@ color: var(--tada-red);
 }
 span#ta-da {
 font-size: 1.6em;
+}
+.polymorph  {
+fill:#29abe2;
 }
 .bg-overlay {
 width: 100%;
@@ -432,6 +480,8 @@ color: white;
 font-family: 'Oregano', Helvetica;
 background-size: cover;
 }
+
+
 
 /*FOOTER CSS*/
 footer {
