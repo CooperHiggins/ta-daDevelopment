@@ -3051,7 +3051,7 @@ header {
 .header-title {
   text-align: center;
   font-size: 2.7em;
-  font-family: 'Oregano';
+  font-family: 'Prompt', sans-serif;
 }
 
 .header-computer {
