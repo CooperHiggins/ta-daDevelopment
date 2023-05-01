@@ -209,8 +209,9 @@ background: url(./images/motherboardTaDa.jpg);
 width: 100%;
 min-height: 100%;
 color: white; 
-font-family: 'Oregano', Helvetica;
+font-family: 'Prompt', sans-serif;
 }
+
 .background {
 background-size: cover;
 background-attachment: fixed;
@@ -244,7 +245,8 @@ color: var(--tada-purple);
 color: var(--tada-red);
 }
 span#ta-da {
-font-size: 1.6em;
+  font-size: 2em;
+  margin: 0em 1.6em -0.2em 0em;
 }
 .polymorph  {
 fill:#29abe2;
@@ -255,6 +257,16 @@ height: 100%;
 background-color: rgba(0, 0, 0, 0.69);
 padding: 5em 2em 5em 2em;
 }
+
+.logo-box {
+  height: 10em;
+  width: 10em;
+  background-color: var(--tada-blue);
+  -ms-flex-line-pack: baseline;
+  align-content: end;
+  margin: auto;
+}
+
 
 /*SERVICES CSS*/
 span.web-development-services {
@@ -903,7 +915,7 @@ span#heading-text {
 color: #fff
 }
 span#ta-da {
-font-size: 1.2em;
+font-size: 2.2em;
 }
 .ampstart-readmore:after {
 content: " ";

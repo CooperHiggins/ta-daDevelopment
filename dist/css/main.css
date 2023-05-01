@@ -3036,7 +3036,7 @@ header {
   width: 100%;
   min-height: 100%;
   color: white;
-  font-family: 'Oregano', Helvetica;
+  font-family: 'Prompt', sans-serif;
 }
 
 .background {
@@ -3080,7 +3080,8 @@ header {
 }
 
 span#ta-da {
-  font-size: 1.6em;
+  font-size: 2em;
+  margin: 0em 1.6em -0.2em 0em;
 }
 
 .polymorph {
@@ -3092,6 +3093,15 @@ span#ta-da {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.69);
   padding: 5em 2em 5em 2em;
+}
+
+.logo-box {
+  height: 10em;
+  width: 10em;
+  background-color: var(--tada-blue);
+  -ms-flex-line-pack: baseline;
+  align-content: end;
+  margin: auto;
 }
 
 /*SERVICES CSS*/
@@ -3845,7 +3855,7 @@ header.ampstart-headerbar.fixed.flex.justify-start.items-center.pl2.pr4 {
     color: #fff;
   }
   span#ta-da {
-    font-size: 1.2em;
+    font-size: 2.2em;
   }
   .ampstart-readmore:after {
     content: " ";
